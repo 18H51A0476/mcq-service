@@ -1,0 +1,23 @@
+/* MainPage.css */
+.main-page-btn {
+    background: #4caf50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .main-page-btn.hovered {
+    background: #45a049;
+    transform: scale(1.05);
+  }
+  
+  .main-page-title {
+    color: #fff; /* Set title text color to white */
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,26 @@
+/* TestCompletedPage.css */
+
+.test-completed-page {
+  background-color: #1a1a1a;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.completed-message {
+  text-align: center;
+  animation: fadeIn 1s ease-in-out; /* Add the animation */
+  color: #4caf50;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

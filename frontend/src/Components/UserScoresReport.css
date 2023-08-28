@@ -1,0 +1,38 @@
+.user-scores-table {
+    width: 100%;
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .user-scores-table th {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-weight: 600;
+  }
+  
+  .user-scores-table td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .download-button {
+    margin-top: 20px;
+  }
+  
+  .download-button button {
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .download-button button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  

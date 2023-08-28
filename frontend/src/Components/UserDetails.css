@@ -1,0 +1,75 @@
+.user-details-page {
+    background: #1a1a1a;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-details-form {
+    background: #222;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .user-details-form h1 {
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    color: #ccc;
+  }
+  
+  .form-control {
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .form-control:focus {
+    border-color: #4caf50;
+  }
+
+  .test-instructions {
+    color: #777;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .form-control option {
+    background: #222; /* Background color for dropdown options */
+    color: #fff; /* Text color for dropdown options */
+  }
+  
+  .btn {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .user-details-form {
+      padding: 10px;
+    }
+  }
+  
